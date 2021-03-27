@@ -288,6 +288,7 @@ class game1 extends Frame implements ActionListener{
 	
 }
 
+//main class
 public class tic_tac_toe {
 
 	@SuppressWarnings("unused")
