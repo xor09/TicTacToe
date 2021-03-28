@@ -1,4 +1,4 @@
-//package awt;
+package awt;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -16,7 +16,7 @@ class game1 extends Frame implements ActionListener{
 		setLocation(300,150);
 		setSize(400,300);
 		setLayout(null);
-		setBackground(Color.BLACK);
+		setBackground(Color.darkGray);
 		
 		tf=new TextField();
 		tf.setSize(250,20);
