@@ -198,82 +198,82 @@ class game1 extends Frame implements ActionListener{
 		if(b1.getLabel()=="X" && b2.getLabel()=="X" && b3.getLabel()=="X") {
 			tf.setText("Player 1 is winner");
 			b1.setFont(fn);b2.setFont(fn);b3.setFont(fn);
-			disable();
+			disabled();
 		}else if(b4.getLabel()=="X" && b5.getLabel()=="X" && b6.getLabel()=="X") {
 			tf.setText("Player 1 is winner");
 			b4.setFont(fn);b5.setFont(fn);b6.setFont(fn);
-			disable();
+			disabled();
 		}else if(b7.getLabel()=="X" && b8.getLabel()=="X" && b9.getLabel()=="X") {
 			tf.setText("Player 1 is winner");
 			b7.setFont(fn);b8.setFont(fn);b9.setFont(fn);
-			disable();
+			disabled();
 		}else if(b1.getLabel()=="O" && b2.getLabel()=="O" && b3.getLabel()=="O") {
 			tf.setText("Player 2 is winner");
 			b1.setFont(fn);b2.setFont(fn);b3.setFont(fn);
-			disable();
+			disabled();
 		}else if(b4.getLabel()=="O" && b5.getLabel()=="O" && b6.getLabel()=="O") {
 			tf.setText("Player 2 is winner");
 			b4.setFont(fn);b5.setFont(fn);b6.setFont(fn);
-			disable();
+			disabled();
 		}else if(b7.getLabel()=="O" && b8.getLabel()=="O" && b9.getLabel()=="O") {
 			tf.setText("Player 2 is winner");
 			b7.setFont(fn);b8.setFont(fn);b9.setFont(fn);
-			disable();
+			disabled();
 		}
 		
 		else if(b1.getLabel()=="X" && b4.getLabel()=="X" && b7.getLabel()=="X") {
 			tf.setText("Player 1 is winner");
 			b1.setFont(fn);b4.setFont(fn);b7.setFont(fn);
-			disable();
+			disabled();
 		}else if(b2.getLabel()=="X" && b5.getLabel()=="X" && b8.getLabel()=="X") {
 			tf.setText("Player 1 is winner");
 			b2.setFont(fn);b5.setFont(fn);b8.setFont(fn);
-			disable();
+			disabled();
 		}else if(b3.getLabel()=="X" && b6.getLabel()=="X" && b9.getLabel()=="X") {
 			tf.setText("Player 1 is winner");
 			b3.setFont(fn);b6.setFont(fn);b9.setFont(fn);
-			disable();
+			disabled();
 		}else if(b1.getLabel()=="O" && b4.getLabel()=="O" && b7.getLabel()=="O") {
 			tf.setText("Player 2 is winner");
 			b1.setFont(fn);b4.setFont(fn);b7.setFont(fn);
-			disable();
+			disabled();
 		}else if(b2.getLabel()=="O" && b5.getLabel()=="O" && b8.getLabel()=="O") {
 			tf.setText("Player 2 is winner");
 			b2.setFont(fn);b5.setFont(fn);b8.setFont(fn);
-			disable();
+			disabled();
 		}else if(b3.getLabel()=="O" && b6.getLabel()=="O" && b9.getLabel()=="O") {
 			tf.setText("Player 2 is winner");
 			b3.setFont(fn);b6.setFont(fn);b9.setFont(fn);
-			disable();
+			disabled();
 		}
 		
 		else if(b1.getLabel()=="X" && b5.getLabel()=="X" && b9.getLabel()=="X") {
 			tf.setText("Player 1 is winner");
 			b1.setFont(fn);b5.setFont(fn);b9.setFont(fn);
-			disable();
+			disabled();
 		}else if(b3.getLabel()=="X" && b5.getLabel()=="X" && b7.getLabel()=="X") {
 			tf.setText("Player 1 is winner");
 			b3.setFont(fn);b5.setFont(fn);b7.setFont(fn);
-			disable();
+			disabled();
 		}else if(b1.getLabel()=="O" && b5.getLabel()=="O" && b9.getLabel()=="O") {
 			tf.setText("Player 2 is winner");
 			b1.setFont(fn);b5.setFont(fn);b9.setFont(fn);
-			disable();
+			disabled();
 		}else if(b3.getLabel()=="O" && b5.getLabel()=="O" && b7.getLabel()=="O") {
 			tf.setText("Player 2 is winner");
 			b3.setFont(fn);b5.setFont(fn);b7.setFont(fn);
-			disable();
+			disabled();
 		}
 		else {
 			if(inc==9) {
 				tf.setText("Match is tie");
-				disable();
+				disabled();
 			}
 		}
 		
 	}
 	
-	public void disable() {
+	public void disabled() {
 		b1.setEnabled(false);
 		b2.setEnabled(false);
 		b3.setEnabled(false);
